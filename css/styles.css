@@ -1,0 +1,226 @@
+
+
+body{
+    font-family: "Montserrat";
+}
+
+/* THIS IS THE TITLE SECTION  */
+
+#title {
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+
+}
+
+#ELtitulo {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* THIS IS THE NAVBAR  */
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    padding: auto;
+}
+
+.nav-link {
+
+    margin: auto 30px auto 0;
+    font-size: 1rem;
+}
+
+/* THIS IS THE MAIN TITLE */
+
+.title-row{
+    margin-top: 80px;
+    
+}
+
+.btn {
+    margin: 5% 3% 5% 0;
+    border-radius: 5%;
+    padding: 7px 20px;
+}
+
+.doggy{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 55%;
+}
+/* 
+en el codigo de angela: width es un 60% y position absolute pero right un 30%. Si pongo la imagen 
+en 60% se me hace masiva. y si pongo right en vez de left: se me va la img para el otro lado */
+
+/* THIS IS THE FEATURES SECTION> */
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.features-box {
+    padding-bottom: 4%;
+}
+
+.featuresh3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.featurep{
+    color: gray;
+    font-size: smaller;
+}
+
+.fa-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    
+}
+
+.fa-icon:hover{
+    color: #ff4c68;
+}
+
+
+/* THIS IS THE TESTIMONIALS */
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testih2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimg{
+    width: 10%;
+    border-radius: 60%;
+    margin: 20px;
+}
+
+
+/*THIS IS THE IMG PRESS ON THE BOTTOM OF TESTIMONIALS */
+
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+.carouselbtn {
+    padding: auto 4rem;
+}
+
+#pricing
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.card {
+    margin: 3% 2%;
+    line-height: 1; 
+    width: 17rem;
+    height: 20rem;
+}
+
+/* THIS IS THE CALL TO ACTION */
+
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.cta-h3 {
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #ffff;
+}
+
+.btn-cta {
+    margin: 5% 3% 5% 0;
+    border-radius: 5%;
+    padding: 7px 20px;
+}
+
+/* THIS IS THE FOOTER  */
+
+
+#footer {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ffff;
+}
+.footericon{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.footerp{
+    color: gray;
+    padding-top: 3%;
+}
+
+/*  THIS IS THE AT MEDIA FOR RESPONSIVE WEBSITE */
+
+
+@media (max-width:1028px){
+
+    .doggy{
+        transform: rotate(0deg);
+        width: 40%;
+        text-align: center;
+        position: static;
+    }
+
+    #features {
+        text-align: center;
+        padding: 7% 5%;
+    }
+}
+
+@media (max-width:900px){
+
+    #title{
+        text-align: center;
+    }
+
+    .doggy{
+        transform: rotate(0deg);
+        width: 70%;
+        position: static;
+        text-align: center;
+    }
+
+    #features {
+        text-align: center;
+        padding: 7% 5%;
+    }
+}
